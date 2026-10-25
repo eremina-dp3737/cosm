@@ -6,3 +6,7 @@ cargoHold.forEach ((el) => {
 })
 let cargoHold2 = cargoHold.pop();
 console.log(`Разгружен последний отсек: ${cargoHold2}`)
+
+let scienceCargo = cargoHold.slice(1, 4)
+console.log(scienceCargo)
+console.log(cargoHold)
