@@ -13,3 +13,6 @@ console.log(cargoHold)
 
 cargoHold.splice(1, 2)
 console.log(cargoHold)
+
+cargoHold.splice(1, 0, 'Золото', 'Детектор лжи')
+console.log(cargoHold)
