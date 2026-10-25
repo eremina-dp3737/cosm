@@ -4,3 +4,5 @@ cargoHold.forEach ((el) => {
     if (el == 'Кристаллы')
     console.log("⚠️ Внимание! Обнаружен ценный груз!")
 })
+let cargoHold2 = cargoHold.pop();
+console.log(`Разгружен последний отсек: ${cargoHold2}`)
