@@ -10,3 +10,6 @@ console.log(`Разгружен последний отсек: ${cargoHold2}`)
 let scienceCargo = cargoHold.slice(1, 4)
 console.log(scienceCargo)
 console.log(cargoHold)
+
+cargoHold.splice(1, 2)
+console.log(cargoHold)
